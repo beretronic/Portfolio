@@ -56,10 +56,10 @@ export default function Contact() {
                         <div>
                           <h3 className="font-medium mb-1">Email</h3>
                           <a 
-                            href="mailto:charles.bere@gmail.com" 
+                            href="mailto:berecharles1@gmail.com" 
                             className="text-muted-foreground hover:text-accent transition-colors"
                           >
-                            charles.bere@gmail.com
+                            berecharles1@gmail.com
                           </a>
                         </div>
                       </div>
@@ -69,10 +69,10 @@ export default function Contact() {
                         <div>
                           <h3 className="font-medium mb-1">Phone</h3>
                           <a 
-                            href="tel:+263772123456" 
+                            href="tel:+2630779203484" 
                             className="text-muted-foreground hover:text-accent transition-colors"
                           >
-                            +263 772 123 456
+                            +263 0779 203 484
                           </a>
                         </div>
                       </div>
