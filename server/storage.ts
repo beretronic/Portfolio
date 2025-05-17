@@ -1,8 +1,8 @@
-import { users, type User, type InsertUser, type ContactSubmission, type InsertContactSubmission } from "@shared/schema";
+import { users, contactSubmissions, type User, type InsertUser, type ContactSubmission, type InsertContactSubmission } from "@shared/schema";
+import { db } from "./db";
+import { eq } from "drizzle-orm";
 
-// modify the interface with any CRUD methods
-// you might need
-
+// Interface defining storage operations
 export interface IStorage {
   getUser(id: number): Promise<User | undefined>;
   getUserByUsername(username: string): Promise<User | undefined>;
@@ -10,43 +10,34 @@ export interface IStorage {
   saveContactSubmission(data: InsertContactSubmission): Promise<ContactSubmission>;
 }
 
-export class MemStorage implements IStorage {
-  private users: Map<number, User>;
-  private contactSubmissions: Map<number, ContactSubmission>;
-  currentId: number;
-  contactId: number;
-
-  constructor() {
-    this.users = new Map();
-    this.contactSubmissions = new Map();
-    this.currentId = 1;
-    this.contactId = 1;
-  }
-
+// Database implementation of the storage interface
+export class DatabaseStorage implements IStorage {
   async getUser(id: number): Promise<User | undefined> {
-    return this.users.get(id);
+    const [user] = await db.select().from(users).where(eq(users.id, id));
+    return user || undefined;
   }
 
   async getUserByUsername(username: string): Promise<User | undefined> {
-    return Array.from(this.users.values()).find(
-      (user) => user.username === username,
-    );
+    const [user] = await db.select().from(users).where(eq(users.username, username));
+    return user || undefined;
   }
 
   async createUser(insertUser: InsertUser): Promise<User> {
-    const id = this.currentId++;
-    const user: User = { ...insertUser, id };
-    this.users.set(id, user);
+    const [user] = await db
+      .insert(users)
+      .values(insertUser)
+      .returning();
     return user;
   }
 
   async saveContactSubmission(data: InsertContactSubmission): Promise<ContactSubmission> {
-    const id = this.contactId++;
-    const createdAt = new Date();
-    const contactSubmission: ContactSubmission = { ...data, id, createdAt };
-    this.contactSubmissions.set(id, contactSubmission);
-    return contactSubmission;
+    const [submission] = await db
+      .insert(contactSubmissions)
+      .values(data)
+      .returning();
+    return submission;
   }
 }
 
-export const storage = new MemStorage();
+// Use DatabaseStorage instead of MemStorage
+export const storage = new DatabaseStorage();
