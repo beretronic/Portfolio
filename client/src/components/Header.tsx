@@ -47,10 +47,8 @@ export default function Header() {
       <div className="container-custom">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/">
-            <a className="text-xl md:text-2xl font-bold font-heading relative z-10">
-              <span className="gradient-text">JD.</span>
-            </a>
+          <Link href="/" className="text-xl md:text-2xl font-bold font-heading relative z-10">
+              <span className="gradient-text">CKB.</span>
           </Link>
 
           {/* Desktop Navigation */}

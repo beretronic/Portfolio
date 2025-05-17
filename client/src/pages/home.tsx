@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>John Doe | Professional Portfolio</title>
+        <title>Charles Kudzanai Bere | Professional Portfolio</title>
         <meta name="description" content="Professional portfolio showcasing my skills, projects, and experience in web development and software engineering." />
       </Helmet>
 

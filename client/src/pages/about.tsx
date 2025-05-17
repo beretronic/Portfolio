@@ -36,7 +36,7 @@ export default function About() {
                 </div>
                 
                 <div className="md:col-span-2">
-                  <h2 className="text-2xl font-semibold mb-4">John Doe</h2>
+                  <h2 className="text-2xl font-semibold mb-4">Charles Kudzanai Bere</h2>
                   <p className="text-xl text-muted-foreground mb-4">Frontend Developer & UI Designer</p>
                   
                   <p className="mb-4">

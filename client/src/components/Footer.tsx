@@ -15,10 +15,8 @@ export default function Footer() {
       <div className="container-custom py-10">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <Link href="/">
-              <a className="text-2xl font-bold font-heading">
-                <span className="gradient-text">JD.</span>
-              </a>
+            <Link href="/" className="text-2xl font-bold font-heading">
+                <span className="gradient-text">CKB.</span>
             </Link>
             <p className="mt-4 text-muted-foreground max-w-md">
               Creating elegant digital experiences with attention to detail, accessibility, 
@@ -129,7 +127,7 @@ export default function Footer() {
         </div>
         
         <div className="border-t border-border mt-10 pt-6 text-center text-muted-foreground text-sm">
-          <p>© {currentYear} John Doe. All rights reserved.</p>
+          <p>© {currentYear} Charles Kudzanai Bere. All rights reserved.</p>
         </div>
       </div>
     </footer>

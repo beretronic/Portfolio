@@ -26,7 +26,7 @@ export default function Hero() {
                 Hello, I'm
               </h2>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-                John Doe
+                Charles Kudzanai Bere
               </h1>
               <h3 className="text-2xl md:text-3xl font-medium text-muted-foreground mt-2">
                 Frontend Developer & UI Designer
