@@ -47,7 +47,7 @@ export default function Contact() {
                         <MapPin className="h-5 w-5 text-accent mr-3 mt-1" />
                         <div>
                           <h3 className="font-medium mb-1">Location</h3>
-                          <p className="text-muted-foreground">New York, NY 10012, US</p>
+                          <p className="text-muted-foreground">Harare, Zimbabwe</p>
                         </div>
                       </div>
                       
@@ -56,10 +56,10 @@ export default function Contact() {
                         <div>
                           <h3 className="font-medium mb-1">Email</h3>
                           <a 
-                            href="mailto:contact@johndoe.com" 
+                            href="mailto:charles.bere@gmail.com" 
                             className="text-muted-foreground hover:text-accent transition-colors"
                           >
-                            contact@johndoe.com
+                            charles.bere@gmail.com
                           </a>
                         </div>
                       </div>
@@ -69,10 +69,10 @@ export default function Contact() {
                         <div>
                           <h3 className="font-medium mb-1">Phone</h3>
                           <a 
-                            href="tel:+1234567890" 
+                            href="tel:+263772123456" 
                             className="text-muted-foreground hover:text-accent transition-colors"
                           >
-                            +1 (234) 567-890
+                            +263 772 123 456
                           </a>
                         </div>
                       </div>
@@ -84,17 +84,17 @@ export default function Contact() {
                     
                     <div className="space-y-4">
                       <a 
-                        href="https://github.com" 
+                        href="https://github.com/charlesbere" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center text-muted-foreground hover:text-accent transition-colors"
                       >
                         <GitPullRequest className="h-5 w-5 mr-3" />
-                        <span>GitPullRequest</span>
+                        <span>GitHub</span>
                       </a>
                       
                       <a 
-                        href="https://linkedin.com" 
+                        href="https://linkedin.com/in/charleskbere" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center text-muted-foreground hover:text-accent transition-colors"
@@ -104,7 +104,7 @@ export default function Contact() {
                       </a>
                       
                       <a 
-                        href="https://twitter.com" 
+                        href="https://twitter.com/CharlesKBere" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="flex items-center text-muted-foreground hover:text-accent transition-colors"
@@ -127,13 +127,13 @@ export default function Contact() {
               
               <div className="mt-16">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.9503398796587!2d-73.9981627!3d40.719526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a27e2f24131%3A0x64ffc98d24069f02!2sNew%20York%2C%20NY%2010012!5e0!3m2!1sen!2sus!4v1625687461305!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121544.58447844527!2d31.022265899999998!3d-17.824993399999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1931a4e706066265%3A0xa7f1310c4ebdbcb2!2sHarare%2C%20Zimbabwe!5e0!3m2!1sen!2sus!4v1715943208756!5m2!1sen!2sus"
                   width="100%"
                   height="450"
                   style={{ border: 0 }}
                   allowFullScreen
                   loading="lazy"
-                  title="Location Map"
+                  title="Harare, Zimbabwe Map"
                 ></iframe>
               </div>
             </div>
