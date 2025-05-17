@@ -47,7 +47,7 @@ export default function Contact() {
                         <MapPin className="h-5 w-5 text-accent mr-3 mt-1" />
                         <div>
                           <h3 className="font-medium mb-1">Location</h3>
-                          <p className="text-muted-foreground">Harare, Zimbabwe</p>
+                          <p className="text-muted-foreground">2 Newport Road, Mabelreign, Harare, Zimbabwe</p>
                         </div>
                       </div>
                       
