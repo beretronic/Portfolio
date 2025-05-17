@@ -28,8 +28,8 @@ export default function About() {
                 <div className="md:col-span-1">
                   <div className="aspect-square overflow-hidden rounded-lg border">
                     <img
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
-                      alt="John Doe"
+                      src="/images/profile.png"
+                      alt="Charles Kudzanai Bere"
                       className="w-full h-full object-cover"
                     />
                   </div>

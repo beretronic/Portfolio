@@ -91,8 +91,8 @@ export default function Hero() {
           >
             <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full overflow-hidden border-4 border-accent/20">
               <img
-                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d"
-                alt="John Doe"
+                src="/images/profile.png"
+                alt="Charles Kudzanai Bere"
                 className="w-full h-full object-cover"
               />
             </div>
