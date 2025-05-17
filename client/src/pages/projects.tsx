@@ -9,8 +9,8 @@ export default function Projects() {
   return (
     <>
       <Helmet>
-        <title>Projects | John Doe Portfolio</title>
-        <meta name="description" content="Explore John Doe's portfolio of web development and design projects, showcasing expertise in React, Node.js, and UI/UX design." />
+        <title>Projects | Charles Kudzanai Bere Portfolio</title>
+        <meta name="description" content="Explore Charles Kudzanai Bere's portfolio of web development and design projects, showcasing expertise in React, Node.js, and UI/UX design." />
       </Helmet>
 
       <div className="pt-20">

@@ -9,8 +9,8 @@ export default function Skills() {
   return (
     <>
       <Helmet>
-        <title>Skills | John Doe Portfolio</title>
-        <meta name="description" content="Explore John Doe's technical skills and proficiencies in web development, UI/UX design, and related technologies." />
+        <title>Skills | Charles Kudzanai Bere Portfolio</title>
+        <meta name="description" content="Explore Charles Kudzanai Bere's technical skills and proficiencies in web development, UI/UX design, and related technologies." />
       </Helmet>
 
       <div className="pt-20">

@@ -9,8 +9,8 @@ export default function Contact() {
   return (
     <>
       <Helmet>
-        <title>Contact | John Doe Portfolio</title>
-        <meta name="description" content="Get in touch with John Doe for project inquiries, collaboration opportunities, or to discuss your web development needs." />
+        <title>Contact | Charles Kudzanai Bere Portfolio</title>
+        <meta name="description" content="Get in touch with Charles Kudzanai Bere for project inquiries, collaboration opportunities, or to discuss your web development needs." />
       </Helmet>
 
       <div className="pt-20">

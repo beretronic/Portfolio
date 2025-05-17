@@ -8,8 +8,8 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About Me | John Doe Portfolio</title>
-        <meta name="description" content="Learn more about John Doe's professional background, experience, and personal journey in web development and design." />
+        <title>About Me | Charles Kudzanai Bere Portfolio</title>
+        <meta name="description" content="Learn more about Charles Kudzanai Bere's professional background, experience, and personal journey in web development and design." />
       </Helmet>
 
       <div className="pt-20">
