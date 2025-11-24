@@ -4,3 +4,9 @@ dist
 server/public
 vite.config.ts.*
 *.tar.gz
+# Visual Studio and Local Config Files
+.vs/
+.local/
+index
+# You might also want to ignore Node files:
+node_modules/

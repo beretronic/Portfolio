@@ -121,31 +121,6 @@ export default function Skills() {
                     <div className="bg-muted/10 p-3 rounded-lg border text-center">
                       <h3 className="font-medium">Docker</h3>
                     </div>
-                    <div className="bg-muted/10 p-3 rounded-lg border text-center">
-                      <h3 className="font-medium">Jira</h3>
-                    </div>
-                    <div className="bg-muted/10 p-3 rounded-lg border text-center">
-                      <h3 className="font-medium">Slack</h3>
-                    </div>
-                  </div>
-                </section>
-                
-                <section>
-                  <h2 className="text-2xl font-semibold mb-4">Languages</h2>
-                  
-                  <div className="space-y-4">
-                    <div className="flex items-center justify-between mb-1">
-                      <span className="font-medium">English</span>
-                      <span>Native</span>
-                    </div>
-                    <div className="flex items-center justify-between mb-1">
-                      <span className="font-medium">Spanish</span>
-                      <span>Fluent</span>
-                    </div>
-                    <div className="flex items-center justify-between mb-1">
-                      <span className="font-medium">French</span>
-                      <span>Intermediate</span>
-                    </div>
                   </div>
                 </section>
               </div>

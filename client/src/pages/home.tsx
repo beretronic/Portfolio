@@ -24,7 +24,7 @@ export default function Home() {
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="text-3xl font-bold mb-4">About Me</h2>
             <p className="text-muted-foreground text-lg mb-6">
-              I'm a passionate web developer and UI designer with 5+ years of experience creating 
+              I'm a passionate web developer and UI designer with 2+ years of experience creating 
               user-friendly and visually appealing digital experiences.
             </p>
           </div>
@@ -37,7 +37,7 @@ export default function Home() {
               </p>
               <p>
                 I specialize in building responsive, accessible web applications with modern frameworks
-                like React, Next.js, and Vue.js. My approach centers around creating seamless user
+                like React and Vue.js. My approach centers around creating seamless user
                 experiences while maintaining clean, maintainable code.
               </p>
               <p>
@@ -57,11 +57,11 @@ export default function Home() {
             
             <div className="grid grid-cols-2 gap-6">
               <div className="bg-accent/10 rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold mb-2">5+</div>
+                <div className="text-3xl font-bold mb-2">2+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
               <div className="bg-accent/10 rounded-lg p-6 text-center">
-                <div className="text-3xl font-bold mb-2">50+</div>
+                <div className="text-3xl font-bold mb-2">20+</div>
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </div>
               <div className="bg-accent/10 rounded-lg p-6 text-center">
@@ -145,7 +145,7 @@ export default function Home() {
                   <div className="h-6 w-6 text-accent mt-1">📍</div>
                   <div>
                     <h4 className="font-medium">Location</h4>
-                    <p className="text-muted-foreground">New York, NY 10012, US</p>
+                    <p className="text-muted-foreground">2 Newport Rd ,Mabelreign,Harare</p>
                   </div>
                 </div>
                 
@@ -154,8 +154,8 @@ export default function Home() {
                   <div>
                     <h4 className="font-medium">Email</h4>
                     <p className="text-muted-foreground">
-                      <a href="mailto:contact@johndoe.com" className="hover:text-accent transition-colors">
-                        contact@johndoe.com
+                      <a href="mailto:berecharles1@gmail.com" className="hover:text-accent transition-colors">
+                        berecharles1@gmail.com
                       </a>
                     </p>
                   </div>
@@ -166,8 +166,8 @@ export default function Home() {
                   <div>
                     <h4 className="font-medium">Phone</h4>
                     <p className="text-muted-foreground">
-                      <a href="tel:+1234567890" className="hover:text-accent transition-colors">
-                        +1 (234) 567-890
+                      <a href="tel:+263779203484" className="hover:text-accent transition-colors">
+                        +263779203484
                       </a>
                     </p>
                   </div>

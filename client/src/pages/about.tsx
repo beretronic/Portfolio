@@ -37,15 +37,15 @@ export default function About() {
                 
                 <div className="md:col-span-2">
                   <h2 className="text-2xl font-semibold mb-4">Charles Kudzanai Bere</h2>
-                  <p className="text-xl text-muted-foreground mb-4">Frontend Developer & UI Designer</p>
+                  <p className="text-xl text-muted-foreground mb-4">FullStack Developer</p>
                   
                   <p className="mb-4">
-                    I'm a passionate web developer with 5+ years of experience building
+                    I'm a passionate web developer with 3+ years of experience building
                     modern, responsive, and user-friendly websites and applications.
                   </p>
                   
                   <p className="mb-6">
-                    My journey in web development began during my computer science studies,
+                    My journey in web development began during my information systems studies,
                     where I discovered my passion for creating digital experiences that are
                     both functional and aesthetically pleasing.
                   </p>
@@ -63,12 +63,12 @@ export default function About() {
                   
                   <div className="space-y-6">
                     <div className="border-l-2 border-accent pl-4">
-                      <h3 className="text-lg font-medium">Senior Frontend Developer</h3>
-                      <p className="text-accent mb-1">TechCorp Inc. (2020 - Present)</p>
+                      <h3 className="text-lg font-medium">Assistant Technician</h3>
+                      <p className="text-accent mb-1">TelOne. (2021 - 2022)</p>
                       <p className="text-muted-foreground">
-                        Led the development of responsive web applications using React and
-                        Next.js. Collaborated with designers to implement pixel-perfect UI
-                        components and improved application performance.
+                                              Collaborated with the development team to design and implement responsive web applications using React and Django,
+                                              enabling real-time monitoring of telecommunications equipment to enhance performance
+                                              and minimize unnoticed downtime.
                       </p>
                     </div>
                     
@@ -77,14 +77,14 @@ export default function About() {
                       <p className="text-accent mb-1">WebSolutions (2018 - 2020)</p>
                       <p className="text-muted-foreground">
                         Developed interactive UI components for client websites using
-                        JavaScript and CSS frameworks. Worked closely with UX designers
+                        REACT,HTML and CSS frameworks. Worked closely with UX designers
                         to create cohesive user experiences.
                       </p>
                     </div>
                     
                     <div className="border-l-2 border-accent pl-4">
                       <h3 className="text-lg font-medium">Web Designer</h3>
-                      <p className="text-accent mb-1">DigitalCreative Agency (2016 - 2018)</p>
+                      <p className="text-accent mb-1">DigitalCreative Agency (2017 - 2018)</p>
                       <p className="text-muted-foreground">
                         Created visual designs for websites and digital products.
                         Implemented designs using HTML, CSS, and basic JavaScript.
@@ -98,17 +98,18 @@ export default function About() {
                   
                   <div className="space-y-6">
                     <div className="border-l-2 border-accent pl-4">
-                      <h3 className="text-lg font-medium">MSc in Computer Science</h3>
-                      <p className="text-accent mb-1">NYU (2014 - 2016)</p>
+                      <h3 className="text-lg font-medium">Diploma In Telecommunication</h3>
+                      <p className="text-accent mb-1">Telone Centre For Learning (2019 - 2022)</p>
                       <p className="text-muted-foreground">
-                        Specialized in Human-Computer Interaction and Web Technologies.
-                        Thesis on Responsive UI Frameworks.
+                                              Earned a Diploma in Telecommunications, gaining strong foundations in networking, signal transmission, and
+                                              communication systems.Developed practical skills in installing, maintaining,
+                                              and troubleshooting telecommunication infrastructure to support reliable connectivity.
                       </p>
                     </div>
                     
                     <div className="border-l-2 border-accent pl-4">
-                      <h3 className="text-lg font-medium">BSc in Software Engineering</h3>
-                      <p className="text-accent mb-1">Boston University (2010 - 2014)</p>
+                      <h3 className="text-lg font-medium">BSc in Information System</h3>
+                      <p className="text-accent mb-1">Midlands State University (2025 - )</p>
                       <p className="text-muted-foreground">
                         Core courses in programming, algorithms, data structures, and
                         software development methodologies.

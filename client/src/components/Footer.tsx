@@ -24,7 +24,7 @@ export default function Footer() {
             </p>
             <div className="flex items-center space-x-4 mt-6">
               <a
-                href="https://github.com"
+                              href="https://github.com/beretronic"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-foreground hover:text-accent transition-colors"
@@ -51,7 +51,7 @@ export default function Footer() {
                 <Twitter className="h-5 w-5" />
               </a>
               <a
-                href="mailto:contact@johndoe.com"
+                href="mailto:berecharles1@gmail.com"
                 className="text-foreground hover:text-accent transition-colors"
                 aria-label="Email"
               >
@@ -114,13 +114,13 @@ export default function Footer() {
           <div className="col-span-1">
             <h3 className="text-lg font-medium mb-4">Contact Info</h3>
             <address className="not-italic text-muted-foreground space-y-2">
-              <p>New York, NY 10012</p>
-              <p>United States</p>
+              <p>2 Newport Rd , Mabelreign,Harare</p>
+              <p>Zimbabwe</p>
               <p className="hover:text-accent transition-colors">
-                <a href="mailto:contact@johndoe.com">contact@johndoe.com</a>
+                              <a href="mailto:berecharles1@gmail.com">berecharles1@gmail.com</a>
               </p>
               <p className="hover:text-accent transition-colors">
-                <a href="tel:+1234567890">+1 (234) 567-890</a>
+                <a href="tel:+263779203484">+263779203484</a>
               </p>
             </address>
           </div>
